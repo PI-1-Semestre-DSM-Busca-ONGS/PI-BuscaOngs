@@ -499,7 +499,7 @@ body {
 .Inicio a:visited {
     text-decoration: none;
     color: #8B8B8B;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .Inicio a:hover {
@@ -511,7 +511,7 @@ body {
 .ONGS a:visited {
     text-decoration: none;
     color: #8B8B8B;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .ONGS a:hover {
@@ -524,7 +524,7 @@ body {
 .Sobre a:visited {
     text-decoration: none;
     color: #8B8B8B;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .Sobre a:hover {
@@ -536,7 +536,7 @@ body {
 .Contato a:visited {
     text-decoration: none;
     color: #8B8B8B;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .Contato a:hover {
