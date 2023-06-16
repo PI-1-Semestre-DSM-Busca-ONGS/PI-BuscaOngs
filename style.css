@@ -1,0 +1,144 @@
+/* Fundo e detalhes */
+
+.fundocontatenos {
+    position: relative;
+    top: 190px;
+    left: 400px;
+    width: 896px;
+    height: 600px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 8px 16px 32px #0000001A;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+.quadradoroxo {
+    position: relative;
+    top: -51px;
+    left: 447.5px;
+    width: 432px;
+    height: 568px;
+    background: #BCD0EC 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+body {
+    position: absolute;
+    display: initial;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    top: -50px;
+    left: 90px;
+    overflow: hidden;
+    background-color: #BCD0EC;
+}
+
+/* Caixa de Nome, Email e Mensagem */
+
+.titulo-nome {
+    position: relative;
+    top: 185.67px;
+    left: 53.435px;
+    width: 500px;
+    height: 50px;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Cabin";
+    letter-spacing: 0px;
+    font-size: 40px/30px;
+    color: #2d2d2d;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.base-email input {
+    font-family: 'Franklin Gothic Medium';
+    background: #f7f7f7 0% 0% no-repeat padding-box;
+    border: 1px solid #eaeaea;
+    border-radius: 16px;
+    opacity: 1;
+    font-size: 16px;
+    width: 328px;
+    height: 48px;
+}
+
+.base-nome input {
+    font-family: 'Franklin Gothic Medium';
+    background: #f7f7f7 0% 0% no-repeat padding-box;
+    border: 1px solid #eaeaea;
+    border-radius: 16px;
+    opacity: 1;
+    font-size: 16px;
+    width: 328px;
+    height: 48px;
+}
+
+.espaco {
+    margin-bottom: 14.66px;
+}
+
+textarea {
+    font-family: 'Franklin Gothic Medium';
+    background: #f7f7f7;
+    border: 1px solid #eaeaea;
+    border-radius: 16px;
+    opacity: 1;
+    font-size: 16px;
+    display: block;
+    margin: 15px 0;
+    width: 328px;
+    height: 96px;
+    text-align: start;
+}
+
+/* Fonte */
+
+h1 {
+    font: bold 35px/43px arial, helvetica;
+    color: #1C2126;
+    letter-spacing: 0.28px;
+}
+
+p {
+    font: 16px/22px;
+    letter-spacing: 0px;
+}
+
+/* Botões */
+
+button {
+    position: relative;
+    top: -880px;
+    left: 50px;
+    margin: 0px;
+    padding: 0px;
+    font: 22px/48px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #4525F2 center center;
+    width: 335px;
+    height: 48px;
+    border-radius: 100px;
+    display: block;
+    border: #4525F2;
+    cursor: pointer;
+}
+
+.bolinha {
+    position: absolute;
+    top: 22px;
+    left: 825px;
+    width: 48px;
+    height: 48px;
+    background: #F2F4F8 0% 0% no-repeat padding-box;
+    border-radius: 1000px;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

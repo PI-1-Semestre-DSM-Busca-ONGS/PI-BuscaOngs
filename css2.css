@@ -1,0 +1,360 @@
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.retangulo {
+    position: absolute;
+    top: 29px;
+    left: 590px;
+    width: 685px;
+    height: 67px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 17px;
+    opacity: 1;
+}
+
+.botaoE {
+    position: absolute;
+    top: 39px;
+    left: 1099.5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botaoE a,
+.botaoE a:visited {
+    font: 22px/48px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #62278E center center;
+    width: 144px;
+    height: 48px;
+    border-radius: 8px;
+    display: block;
+}
+
+.botaoE a:hover {
+    background: #62278E center center;
+    color: #dadada;
+}
+
+.Inicio {
+    position: absolute;
+    top: 40px;
+    left: 674.5px;
+    width: 43px;
+    height: 22px;
+}
+
+.ONGS {
+    position: absolute;
+    top: 40px;
+    left: 747.5px;
+    width: 55px;
+    height: 27px;
+}
+
+.ajudar {
+    position: absolute;
+    top: 40px;
+    left: 832.5px;
+    width: 87px;
+    height: 22px;
+}
+
+.ajudar a,
+.ajudar a:visited {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ajudar a:hover {
+    color: #000000;
+    font-size: 110%;
+}
+
+.Sobre {
+    position: absolute;
+    top: 38px;
+    left: 916.5px;
+    width: 45px;
+    height: 22px;
+}
+
+.Contato {
+    position: absolute;
+    top: 40px;
+    left: 998.54px;
+    width: 62px;
+    height: 22px;
+}
+
+.Inicio a,
+.Inicio a:visited {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Inicio a:hover {
+    color: #000000;
+    font-size: 110%;
+}
+
+.ONGS a,
+.ONGS a:visited {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ONGS a:hover {
+    color: #000000;
+    font-size: 110%;
+}
+
+.Sobre a,
+.Sobre a:visited {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Contato a,
+.Contato a:visited {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Contato a:hover {
+    color: #000000;
+    font-size: 110%;
+}
+
+h1 {
+    position: relative;
+
+    font: bold 52px/60px arial, helvetica;
+}
+
+p {
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #737373;
+    opacity: 1;
+}
+
+footer {
+    position: absolute;
+    top: 2000px;
+    left: 0px;
+    width: 1865px;
+    height: 80px;
+    background: transparent linear-gradient(90deg, #9AB9E4 0%, #91E1BE 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    display: inline;
+}
+
+.blocaocinza {
+    position: absolute;
+    top: 1450px;
+    left: 0px;
+    width: 1865px;
+    height: 604px;
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #1C2126;
+}
+
+.bolinha1 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 248px;
+    position: absolute;
+}
+
+.bolinha2 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 348px;
+    position: absolute;
+}
+
+.bolinha3 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 448px;
+    position: absolute;
+}
+
+.bolinha4 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 548px;
+    position: absolute;
+}
+
+.bolinha5 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 648px;
+    position: absolute;
+}
+
+.backfotos {
+    position: absolute;
+    top: 1620px;
+    left: 0px;
+    width: 1865px;
+    height: 900px;
+    background: transparent linear-gradient(120deg, #9AB9E4 0%, #91E1BE 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+h2 {
+    text-align: center;
+    font: 16px/22px 'Noto Sans';
+    letter-spacing: 0px;
+    color: #F2F4F8;
+    opacity: 1;
+}
+
+h3 {
+    text-align: center;
+    font: 25px/31px 'Noto Sans';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.boxinf {
+    position: absolute;
+    top: 4400px;
+    left: 0px;
+    width: 1865px;
+    height: 1500px;
+    background: transparent linear-gradient(117deg, #9AB9E4 0%, #91E1BE 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.linha1 {
+    position: absolute;
+    top: 550px;
+    left: 143px;
+    width: 1550px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #6A51F5;
+    opacity: 1;
+}
+
+.linha2 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 1550px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #6A51F5;
+    opacity: 1;
+}
+
+.linha3 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 1550px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #6A51F5;
+    opacity: 1;
+}
+
+.linha4 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 1550px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #6A51F5;
+    opacity: 1;
+}
+
+.linha5 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 1550px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #6A51F5;
+    opacity: 1;
+}
+
+.botaoaju {
+    position: absolute;
+    top: 39px;
+    left: 1077px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botaoaju a,
+.botaoaju a:visited {
+    font: 22px/48px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    background: aliceblue center center;
+    width: 150px;
+    height: 54px;
+    border-radius: 8px;
+    display: block;
+}
+
+h4 {
+    text-align: left;
+    font: bold 16px/26px arial, helvetica;
+    letter-spacing: 0.4px;
+    color: #62278E;
+    opacity: 1;
+}

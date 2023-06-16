@@ -1,0 +1,71 @@
+.back {
+    /* BackGround  */
+    position: relative;
+    top: 215px;
+    left: 490px;
+    width: 896px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 8px 16px 32px #0000001A;
+    border-radius: 16px;
+}
+
+body {
+    background-color: #BCD0EC;
+}
+
+h1 {
+    position: relative;
+    top: -270px;
+    left: -300px;
+    font: bold 35px/43px arial, helvetica;
+}
+
+form {
+    background: #F2F4F8 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+.base-email input {
+    font-family: 'Franklin Gothic Medium';
+    background: #f7f7f7 0% 0% no-repeat padding-box;
+    border: 1px solid #eaeaea;
+    border-radius: 16px;
+    opacity: 1;
+    font-size: 16px;
+    width: 328px;
+    height: 48px;
+    
+}
+
+.botaoX {
+    position: relative;
+    text-decoration: none;
+    color: #1C2126;
+    top: 40px;
+    left: 820px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: xx-large;
+}
+
+.botaoX a,
+.botaoX a:visited {
+    color: #F2F4F8;
+    background: #F2F4F8 0% 0% no-repeat padding-box;
+    border-radius: 1000px;
+    opacity: 1;
+}
+
+.botaoX a:hover {
+    background: #4525F2 center center;
+    color: #dadada;
+}
+
+.botao {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}

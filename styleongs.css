@@ -1,0 +1,629 @@
+/* Fundo e detalhes */
+
+.retangulo {
+    position: absolute;
+    top: 29px;
+    left: 590px;
+    width: 685px;
+    height: 67px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 17px;
+    opacity: 1;
+}
+
+/*vou usar muito display no footer e no blocaocinza*/
+
+.blocaocinza {
+    position: absolute;
+    top: 2000px;
+    left: 0px;
+    width: 1865px;
+    height: 604px;
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #1C2126;
+}
+
+/*bolinhas dentro do blocao cinza*/
+
+.bolinha1 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 248px;
+    position: absolute;
+}
+
+.bolinha2 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 348px;
+    position: absolute;
+}
+
+.bolinha3 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 448px;
+    position: absolute;
+}
+
+.bolinha4 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 548px;
+    position: absolute;
+}
+
+.bolinha5 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #00000014;
+    border-radius: 1000px;
+    opacity: 1;
+    top: 427px;
+    left: 648px;
+    position: absolute;
+}
+
+/*vou usar muito display no footer e no blocaocinza*/
+
+footer {
+    position: absolute;
+    top: 2525px;
+    left: 0px;
+    width: 1865px;
+    height: 80px;
+    background: transparent linear-gradient(90deg, #9AB9E4 0%, #91E1BE 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    display: inline;
+}
+
+/*vou usar muito display no footer e no blocaocinza*/
+
+body {
+    color: #FEFEFE;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/* Botões */
+
+.botaoE {
+    position: absolute;
+    top: 39px;
+    left: 1099.5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botaoE a,
+.botaoE a:visited {
+    font: 22px/48px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #62278E center center;
+    width: 144px;
+    height: 48px;
+    border-radius: 8px;
+    display: block;
+}
+
+.botaoE a:hover {
+    background: #62278E center center;
+    color: #dadada;
+}
+
+.Inicio {
+    position: absolute;
+    top: 40px;
+    left: 674.5px;
+    width: 43px;
+    height: 22px;
+}
+
+.ONGS {
+    position: absolute;
+    top: 38px;
+    left: 747.5px;
+    width: 55px;
+    height: 27px;
+}
+
+.Ajudar {
+    position: absolute;
+    top: 40px;
+    left: 832.5px;
+    width: 87px;
+    height: 22px;
+}
+
+.Ajudar a,
+.Ajudar a:visited {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Ajudar a:hover {
+    color: #000000;
+    font-size: 110%;
+}
+
+.Sobre {
+    position: absolute;
+    top: 40px;
+    left: 916.5px;
+    width: 45px;
+    height: 22px;
+}
+
+.Contato {
+    position: absolute;
+    top: 40px;
+    left: 998.54px;
+    width: 62px;
+    height: 22px;
+}
+
+.Inicio a,
+.Inicio a:visited {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Inicio a:hover {
+    color: #000000;
+    font-size: 110%;
+}
+
+.ONGS a,
+.ONGS a:visited {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sobre a,
+.Sobre a:visited {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sobre a:hover {
+    color: #000000;
+    font-size: 110%;
+}
+
+.Contato a,
+.Contato a:visited {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Contato a:hover {
+    color: #000000;
+    font-size: 110%;
+}
+
+/* Espaços */
+
+.espaco {
+    margin-top: 758px;
+}
+
+.espaco2 {
+    margin-top: 229px;
+}
+
+/* Pesquisa e filtro */
+
+.help {
+    background-color: #FEFEFE;
+    width: 78%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans';
+}
+
+.search {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 4%;
+    overflow: hidden;
+}
+
+.search-input {
+    width: 70%;
+    height: 70%;
+    background-color: transparent;
+    transition: width 0.5s ease;
+    /*background: #FFFFFF 0% 0% no-repeat padding-box;*/
+    border: 1px solid #707070;
+    opacity: 1;
+    border-radius: 50px;
+    background-image: url(/img/lupa.svg);
+    background-position: 2%;
+    background-size: 4%;
+    background-repeat: no-repeat;
+    text-align: left;
+    font: normal normal 200 40px/58px arial, helvetica, sans-serif;
+    padding-left: 8%;
+    outline: none;
+}
+
+.search-input.active {
+    width: 50px;
+    padding: 0;
+    background: transparent;
+}
+
+.search-icon.active {
+    width: 10%;
+    height: 70%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #707070;
+    opacity: 1;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(/img/lupa.svg);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: transparent;
+}
+
+/* checkbox e filtro*/
+
+.filter {
+    position: absolute;
+    background-color: #FEFEFE;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    width: 22%;
+    height: max-content;
+    font-family: 'Noto Sans';
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    color: #1C2126;
+    top: 795px
+}
+
+.filter h1 {
+    font: normal normal bold 26px/30px 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.filter h2 {
+    font: normal normal bold 18px/22px 'Noto Sans', sans-serif;
+}
+
+.filtro-tipo {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50%;
+}
+
+.causas {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50%;
+}
+
+.habilidades {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50%;
+}
+
+.filtro-tipo {
+    font: normal normal 16px/18px 'Noto Sans', sans-serif;
+}
+
+.filtro-causas,
+.filtro-habilidades {
+    font: normal normal 14px/18px 'Noto Sans', sans-serif;
+}
+
+
+/* Caixa das ONGS */
+
+.boxONG1 {
+    position: absolute;
+    top: 1014px;
+    left: 482px;
+    width: 299px;
+    height: 413px;
+    background: rgba(255, 0, 0, 0);
+    border: 1px solid #707070;
+    border-radius: 19px;
+    color: #1C2126;
+}
+
+.boxONG2 {
+    position: absolute;
+    top: 1014px;
+    left: 982px;
+    width: 299px;
+    height: 413px;
+    background: rgba(255, 0, 0, 0);
+    border: 1px solid #707070;
+    border-radius: 19px;
+    color: #1C2126;
+}
+
+.boxONG3 {
+    position: absolute;
+    top: 1014px;
+    left: 1472px;
+    width: 299px;
+    height: 413px;
+    background: rgba(255, 0, 0, 0);
+    border: 1px solid #707070;
+    border-radius: 19px;
+    color: #1C2126;
+}
+
+.boxONG4 {
+    position: absolute;
+    top: 1545.5px;
+    left: 482px;
+    width: 299px;
+    height: 413px;
+    background: rgba(255, 0, 0, 0);
+    border: 1px solid #707070;
+    border-radius: 19px;
+    color: #1C2126;
+}
+
+.boxONG5 {
+    position: absolute;
+    top: 1545.5px;
+    left: 982px;
+    width: 299px;
+    height: 413px;
+    background: rgba(255, 0, 0, 0);
+    border: 1px solid #707070;
+    border-radius: 19px;
+    color: #1C2126;
+}
+
+.boxONG6 {
+    position: absolute;
+    top: 1545.5px;
+    left: 1472px;
+    width: 299px;
+    height: 413px;
+    background: rgba(255, 0, 0, 0);
+    border: 1px solid #707070;
+    border-radius: 19px;
+    color: #1C2126;
+}
+
+/* Botões dentro das boxONG */
+
+.botaoONG1 {
+    position: absolute;
+    top: 330px;
+    left: 85px;
+    width: 126px;
+    height: 38px;
+}
+
+.botaoONG1 a,
+.botaoONG1 a:visited {
+    font: 12px/17px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #4525F2 center center;
+    width: 126px;
+    height: 38px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.botaoONG1 a:hover {
+    background: #4525F2 center center;
+    color: #dadada;
+}
+
+.botaoONG2 {
+    position: absolute;
+    top: 330px;
+    left: 85px;
+    width: 126px;
+    height: 38px;
+}
+
+.botaoONG2 a,
+.botaoONG2 a:visited {
+    font: 12px/17px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #4525F2 center center;
+    width: 126px;
+    height: 38px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.botaoONG2 a:hover {
+    background: #4525F2 center center;
+    color: #dadada;
+}
+
+.botaoONG3 {
+    position: absolute;
+    top: 330px;
+    left: 85px;
+    width: 126px;
+    height: 38px;
+}
+
+.botaoONG3 a,
+.botaoONG3 a:visited {
+    font: 12px/17px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #4525F2 center center;
+    width: 126px;
+    height: 38px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.botaoONG3 a:hover {
+    background: #4525F2 center center;
+    color: #dadada;
+}
+
+.botaoONG4 {
+    position: absolute;
+    top: 330px;
+    left: 85px;
+    width: 126px;
+    height: 38px;
+}
+
+.botaoONG4 a,
+.botaoONG4 a:visited {
+    font: 12px/17px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #4525F2 center center;
+    width: 126px;
+    height: 38px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.botaoONG4 a:hover {
+    background: #4525F2 center center;
+    color: #dadada;
+}
+
+.botaoONG5 {
+    position: absolute;
+    top: 330px;
+    left: 85px;
+    width: 126px;
+    height: 38px;
+}
+
+.botaoONG5 a,
+.botaoONG5 a:visited {
+    font: 12px/17px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #4525F2 center center;
+    width: 126px;
+    height: 38px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.botaoONG5 a:hover {
+    background: #4525F2 center center;
+    color: #dadada;
+}
+
+.botaoONG6 {
+    position: absolute;
+    top: 330px;
+    left: 85px;
+    width: 126px;
+    height: 38px;
+}
+
+.botaoONG6 a,
+.botaoONG6 a:visited {
+    font: 12px/17px arial, helvetica;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #4525F2 center center;
+    width: 126px;
+    height: 38px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.botaoONG6 a:hover {
+    background: #4525F2 center center;
+    color: #dadada;
+}
+
+/*text-indent: da espaço no texto*/
+/*line-height: da espaço vertical no texto*/

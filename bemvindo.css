@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #BCD0EC;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(imagens-bemvindo/ilustração.svg);
+    background-size: 45vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left i {
+    margin-top: 2.21%;
+    margin-left: 1.4%;
+    position: absolute;
+}
+
+.return {
+    position: absolute;
+    margin: 0;
+    top: 30px;
+    left: 10px;
+    width: 7%;
+    text-align: center;
+    font: normal normal 600 16px/26px 'Cabin';
+    letter-spacing: 0.4px;
+    color: #000000;
+    opacity: 1;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.right {
+    width: 50vw;
+    height: 100vh;
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.card {
+    /*width: 72.87%;
+    /*height: 75.87%;*/
+    width: 36.43vw;
+    max-height: min-content;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 8px 8px 8px #00000029;
+    border-radius: 2%;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 0 8%;
+}
+
+.card h1 {
+    width: 100%;
+    font: normal normal bold 58px/72px 'Cabin';
+    letter-spacing: 0px;
+    text-align: center;
+    color: #4525F2;
+    opacity: 1;
+}
+
+.card h2 {
+    text-align: center;
+    font: normal normal normal 14px/20px 'Roboto';
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+}
+
+.textfield form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 2% 0;
+}
+
+.textfield label {
+
+    font: normal normal normal 16px/24px 'Cabin';
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+.textfield input {
+    justify-content: left;
+    width: 100%;
+    height: 35px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 3% 2%;
+    text-align: left;
+    font: normal normal normal 13px/16px 'Roboto';
+    letter-spacing: 0px;
+    color: #898989;
+    opacity: 1;
+    outline: none;
+}
+
+.name {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+}
+
+.remember form {
+    margin-top: 3%;
+    display: flex;
+    justify-content: left;
+}
+
+.remember label {
+    background-color: transparent;
+    border: none;
+    margin: 1%;
+    text-align: left;
+    font: normal normal bold 12px/16px 'Cabin';
+    letter-spacing: 0px;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+.remember input {
+    background: #EAEAEA 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.registered {
+    padding: 1.5% 0;
+    text-align: right;
+}
+
+.registered a {
+    font: normal normal bold 12px/16px "Cabin";
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: #4525F2;
+    opacity: 1;
+}
+
+.enter {
+    width: 100%;
+    height: 42px;
+    background: #4525F2 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border-color: transparent;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 18px/24px 'Cabin';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ou {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ou hr {
+    width: 37%;
+    height: 2px;
+    background: #D3D3D3 0% 0% no-repeat padding-box;
+    border: none;
+    opacity: 1;
+}
+
+.ou p {
+    margin: 0 10%;
+    font: normal normal normal 16px/24px 'Cabin';
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    opacity: 1;
+}
+
+.accounts {
+    padding: 2% 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accounts button {
+    margin: 3.6%;
+    width: 15%;
+    height: 2vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.apple {
+    background-image: url(imagens-bemvindo/apple.svg);
+}
+
+.google {
+    background-image: url(imagens-bemvindo/facebook.svg);
+}
+
+.facebook {
+    background-image: url(imagens-bemvindo/google.svg);
+}
+
+.twitter {
+    background-image: url(imagens-bemvindo/twitter.svg);
+}
