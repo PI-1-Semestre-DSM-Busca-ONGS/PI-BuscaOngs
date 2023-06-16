@@ -429,7 +429,7 @@ body {
 
 .botaoE a,
 .botaoE a:visited {
-    font: 22px/48px arial, helvetica;
+    font: 22px/48px 'Noto Sans', sans-serif;
     padding: 0px;
     text-decoration: none;
     text-align: center;
